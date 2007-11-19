@@ -19,7 +19,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 A CD Drive control panel plugin for the Xfce Desktop Environment.
 
 %prep
-%setup -q
+%setup -qn %{name}
 
 sh autogen.sh
  
@@ -38,6 +38,6 @@ rm -rf %{buildroot}
 
 %files -f %{name}.lang
 %defattr(-,root,root)
-%doc README ChangeLog COPYING AUTHORS INSTALL
+%doc README ChangeLog AUTHORS
 %{_libdir}/xfce4/panel-plugins/*
 %{_datadir}/xfce4/panel-plugins/*
