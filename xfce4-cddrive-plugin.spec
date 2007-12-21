@@ -13,6 +13,7 @@ BuildRequires:	exo-devel
 BuildRequires:	intltool
 BuildRequires:	dbus-glib-devel
 Obsoletes:	xfce-cddrive-plugin
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A CD Drive control panel plugin for the Xfce Desktop Environment.
