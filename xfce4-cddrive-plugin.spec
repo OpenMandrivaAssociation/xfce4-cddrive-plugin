@@ -1,7 +1,7 @@
 Summary:	CD Drive plugin for the Xfce panel
 Name:		xfce4-cddrive-plugin
 Version:	0.0.1
-Release:	%mkrel 2
+Release:	%mkrel 4
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cddrive-plugin
