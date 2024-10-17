@@ -4,7 +4,7 @@ Version:	0.0.1
 Release:	11
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-cddrive-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-cddrive-plugin
 Source0:	http://goodies.xfce.org/_media/projects/panel-plugins/%{name}-%{version}.tar.bz2
 Patch0:		xfce4-cddrive-plugin-libtool-fixes.patch
 BuildRequires:	pkgconfig(libxfce4panel-1.0)
